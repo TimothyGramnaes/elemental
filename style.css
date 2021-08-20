@@ -202,6 +202,10 @@ justify-content: space-between;
 
 }
 
+.bars {
+    display: none;
+}
+
 .footer2 {
     display: none;
 }
@@ -212,6 +216,11 @@ justify-content: space-between;
 
 .footerSocial {
 text-align: right;
+}
+
+.hamburger {
+    margin-right: 3rem;
+    height: 6rem;
 }
 
 @media all and (max-width: 1000px) {
@@ -252,6 +261,14 @@ text-align: right;
 
 .footer2 img {
     padding: 1rem;
+}
+
+.navigation {
+    display: none;
+}
+
+.bars {
+    display: inline;
 }
 
 }
