@@ -154,6 +154,7 @@ button {
     color: white;
     text-decoration: none;
     display: inline-block;
+    cursor: pointer;
 }
 
 .textimage {
